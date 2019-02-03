@@ -1,0 +1,8 @@
+#1 What is a Node module?
+A node module is like a library in other programming languages. Modules are use to abstract functions, parameters, etc. that may be used frequently throughout a code base. 
+
+#2 What is the main difference between exports and module.exports?
+Exports is a reference to the object module.exports.
+
+#3 Why is using exports recommended?
+Exports is recommended because it cannot be easily reassigned since it is a reference to the object. Module.exports can be reassigned to a non-object data type which would cause an error because the require method needs an object. 
